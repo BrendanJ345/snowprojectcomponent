@@ -6,9 +6,9 @@ import {
 
 function App() {
   return (
-    <div className="App">
+    
       <Component1 />
-    </div>
+
   );
 }
 

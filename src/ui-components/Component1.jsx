@@ -7,7 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Button, Image, Text, View } from "@aws-amplify/ui-react";
+import { Flex, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Component1(props) {
   const { overrides, ...rest } = props;
   return (
@@ -210,21 +210,11 @@ export default function Component1(props) {
         backgroundColor="rgba(255,255,255,1)"
         {...getOverrideProps(overrides, "Rectangle 5")}
       ></View>
-      <Button
+      <Flex
         width="288px"
         height="unset"
-        position="absolute"
-        top="36.16%"
-        bottom="61.52%"
-        left="74.55%"
-        right="10.91%"
-        backgroundColor="rgba(255,153,0,1)"
-        size="large"
-        isDisabled={false}
-        variation="primary"
-        children="Sign up/ SIgn In "
         {...getOverrideProps(overrides, "Button")}
-      ></Button>
+      ></Flex>
       <Text
         fontFamily="Inter"
         fontSize="32px"

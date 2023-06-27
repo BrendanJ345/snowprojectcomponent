@@ -6,7 +6,7 @@
 
 import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
-import { ButtonProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { FlexProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type Component1OverridesProps = {
     Component1?: PrimitiveOverrideProps<ViewProps>;
@@ -20,7 +20,7 @@ export declare type Component1OverridesProps = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nisl velit. Pellentesque in est odio. Donec mollis arcu ante, vitae iaculis augue pulvinar et."?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 5"?: PrimitiveOverrideProps<ViewProps>;
-    Button?: PrimitiveOverrideProps<ButtonProps>;
+    Button?: PrimitiveOverrideProps<FlexProps>;
     "Ready to get started?"?: PrimitiveOverrideProps<TextProps>;
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nisl velit."?: PrimitiveOverrideProps<TextProps>;
     "AWS Snowbird"?: PrimitiveOverrideProps<TextProps>;
